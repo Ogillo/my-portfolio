@@ -43,5 +43,10 @@ header{
     padding: 10px;
     margin-right: 5px;
     cursor: pointer;
-    text-align: center`;
+    text-align: center;
+}
+.logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
 }
