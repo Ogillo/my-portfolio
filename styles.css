@@ -58,7 +58,6 @@ nav .togglebtn{
     right: 3%;
     z-index: 5;
     cursor: pointer;
-    background-color: #007ced;
     display: none;                                                                                                         ;
 }
 nav .togglebtn span{
@@ -71,7 +70,7 @@ nav .togglebtn span{
     transition-property: transform, opacity;
 }
 nav .navlinks{
-    list-style: none;
+    list-style-type: none;
 }
 nav .navlinks  li{
     display: inline-block;
