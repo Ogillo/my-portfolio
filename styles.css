@@ -139,7 +139,7 @@ nav .navlinks li a{
 .btn.active{
     border-color: #007ced;
 }
-.hero-text .social{
+.hero-text .social i{
     color: #e5e5e5;
     font-size: 18px;
     margin-right: 10px;
