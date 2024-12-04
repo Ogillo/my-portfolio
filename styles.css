@@ -139,12 +139,23 @@ nav .navlinks li a{
 .btn.active{
     border-color: #007ced;
 }
+.hero-text .social{
+    color: #e5e5e5;
+    font-size: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.hero-text .social i:hover{
+    color: #007ced;
+    transform: rotate(360deg);
+}
 /*responsive design and displaying navbar for small screen*/
 @media(max-width:930px)
 {
     nav .togglebtn{
         display: initial;
     }
+    /*for toggle button**/
     .click{
         top: 45px;
     }
@@ -186,6 +197,6 @@ nav .navlinks li a{
         text-align: center;
     }
     nav .navlinks .open{
-        right: 0;
+        right: 0; 
     }
 }
